@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE42E0AC20BDD95B0071CEC2 /* MeterTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE42E0AA20BDD95B0071CEC2 /* MeterTable.cpp */; };
 		BEA0021D20BC8CA800538991 /* particle4u.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA0021C20BC8CA800538991 /* particle4u.png */; };
-		BEA0022120BCAAC700538991 /* MeterTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEA0022020BCAAC700538991 /* MeterTable.cpp */; };
 		BEDA7CF420B55042004A1260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDA7CF320B55042004A1260 /* AppDelegate.swift */; };
 		BEDA7CF620B55042004A1260 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDA7CF520B55042004A1260 /* ViewController.swift */; };
 		BEDA7CF920B55042004A1260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDA7CF720B55042004A1260 /* Main.storyboard */; };
@@ -19,9 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE42E0AA20BDD95B0071CEC2 /* MeterTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeterTable.cpp; sourceTree = "<group>"; };
+		BE42E0AB20BDD95B0071CEC2 /* MeterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterTable.h; sourceTree = "<group>"; };
 		BEA0021C20BC8CA800538991 /* particle4u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle4u.png; sourceTree = "<group>"; };
-		BEA0022020BCAAC700538991 /* MeterTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeterTable.cpp; sourceTree = "<group>"; };
-		BEA0022220BCAACB00538991 /* MeterTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeterTable.h; sourceTree = "<group>"; };
 		BEDA7CF020B55042004A1260 /* playingmusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playingmusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDA7CF320B55042004A1260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEDA7CF520B55042004A1260 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,15 +46,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BEA0022320BCAAF600538991 /* Meter Table */ = {
-			isa = PBXGroup;
-			children = (
-				BEA0022020BCAAC700538991 /* MeterTable.cpp */,
-				BEA0022220BCAACB00538991 /* MeterTable.h */,
-			);
-			path = "Meter Table";
-			sourceTree = "<group>";
-		};
 		BEDA7CE720B55042004A1260 = {
 			isa = PBXGroup;
 			children = (
@@ -74,7 +65,6 @@
 		BEDA7CF220B55042004A1260 /* playingmusic */ = {
 			isa = PBXGroup;
 			children = (
-				BEA0022320BCAAF600538991 /* Meter Table */,
 				BEA0021C20BC8CA800538991 /* particle4u.png */,
 				BEDA7D0720B55085004A1260 /* escape.mp3 */,
 				BEDA7CF320B55042004A1260 /* AppDelegate.swift */,
@@ -86,6 +76,8 @@
 				BEEACA6D20B9499700FAA7E0 /* VisualizerView.h */,
 				BEEACA6E20B9499700FAA7E0 /* VisualizerView.mm */,
 				BEEACA6C20B9499700FAA7E0 /* playingmusic-Bridging-Header.h */,
+				BE42E0AA20BDD95B0071CEC2 /* MeterTable.cpp */,
+				BE42E0AB20BDD95B0071CEC2 /* MeterTable.h */,
 			);
 			path = playingmusic;
 			sourceTree = "<group>";
@@ -169,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA0022120BCAAC700538991 /* MeterTable.cpp in Sources */,
+				BE42E0AC20BDD95B0071CEC2 /* MeterTable.cpp in Sources */,
 				BEDA7CF620B55042004A1260 /* ViewController.swift in Sources */,
 				BEDA7CF420B55042004A1260 /* AppDelegate.swift in Sources */,
 				BEEACA6F20B9499700FAA7E0 /* VisualizerView.mm in Sources */,
